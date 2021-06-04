@@ -1,0 +1,81 @@
+header {
+    background-color: rgb(215, 231, 238);
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 550px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    padding: 12px;
+
+}
+
+.container {
+    /* border: 2px solid red; */
+    height: 100px;
+    width: 90%;
+    text-align: center;
+
+}
+
+.container p {
+    font-size: 2rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.container table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: rgb(247, 181, 162);
+    border: 2px solid rgb(0, 0, 0);
+    margin: 10px;
+    padding: 0px 6px;
+    ;
+    font-size: 1.5rem;
+}
+
+.box li {
+    font-family: cursive;
+    list-style: square;
+}
+
+h1 {
+    font-style: bold;
+}
+
+.glass {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 10px;
+    padding: 0px 6px;
+    font-size: 1rem;
+}
+.btn{
+    padding: 4px;
+    margin: 4px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+}
+.btn:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
